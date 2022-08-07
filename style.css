@@ -86,18 +86,22 @@ a:hover{
 .sidebar #img1{
     border: 2px solid black;
     border-radius: 3px;
+    padding: 0px 0px 0px 5px;
 }
 .sidebar #img2{
     border: 2px solid black;
     border-radius: 3px;
+    padding: 0px 0px 0px 5px;
 }
 .sidebar #img3{
     border: 2px solid black;
     border-radius: 3px;
+    padding: 0px 0px 0px 5px;
 }
 .sidebar #img4{
     border: 2px solid black;
     border-radius: 3px;
+    padding: 0px 0px 0px 5px;
 }
 .sidebar ul{
     margin-top: 45px;
@@ -114,7 +118,8 @@ a:hover{
     text-decoration: none;
     display: flex;
     align-items: center;
-    padding: 10px;
+    padding: 10px 10px 10px 20px;
+    margin-right: 10px;
     border-radius: 12px;
 }
 .sidebar ul li a:hover{
