@@ -80,22 +80,7 @@ a:hover{
     text-align: center;
     transform: translateX(-50%);
 }
-.sidebar #img1{
-    border: 2px solid black;
-    border-radius: 3px;
-    padding: 0px 0px 0px 5px;
-}
-.sidebar #img2{
-    border: 2px solid black;
-    border-radius: 3px;
-    padding: 0px 0px 0px 5px;
-}
-.sidebar #img3{
-    border: 2px solid black;
-    border-radius: 3px;
-    padding: 0px 0px 0px 5px;
-}
-.sidebar #img4{
+.sidebar ul li i{
     border: 2px solid black;
     border-radius: 3px;
     padding: 0px 0px 0px 5px;
@@ -109,6 +94,29 @@ a:hover{
     height: 60px;
     margin: 0px 5px;
     list-style: none;
+}
+.sidebar ul li .tooltip{
+    position: absolute;
+    height: 35px;
+    width: 122px;
+    color: black;
+    left: 122px;
+    top: 0;
+    transform: translateY(-50%);
+    border-radius: 6px;
+    background: white;
+    line-height: 35px;
+    text-align: center;
+    box-shadow: 0px 5px 10px rgb(152, 152, 152);
+    transition: 0s;
+    opacity: 0;
+    pointer-events: none;
+}
+.sidebar ul li:hover .tooltip{
+    transition: all 0.5s ease;
+    top: 50%;
+    background: white;
+    opacity: 1;
 }
 .sidebar ul li a{
     color: black;
