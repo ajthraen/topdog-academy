@@ -72,6 +72,7 @@ a:hover{
     width: 240px;
     margin-top: 65px;
     background: rgb(220, 220, 220);
+    border-right: 2px solid rgba(100, 100, 100, 0.1);
     padding: 6px 14px;
 }
 .sidebar #btn{
