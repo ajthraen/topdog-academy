@@ -23,8 +23,8 @@
     align-items: center;
     justify-content: space-between;
     width: auto;
-    height: 60px;
-    padding: 5px 20px;
+    height: 65px;
+    padding: 10px 20px 5px 20px;
     background-color: #ffffffd6;
     border-bottom: 2px solid hsla(0,0%,52.2%,.1);
 
@@ -53,6 +53,9 @@
     padding: 0px 4px;
     color: black;
 }
+a{
+    color: black;
+}
 a:hover{
     color: rgb(0, 0, 178);
 }
@@ -63,12 +66,32 @@ a:hover{
 }
 .sidebar{
     position: fixed;
-    top: 60;
+    top: 67;
     left: 0;
     height: 100%;
     width: 240px;
-    margin-top: 60px;
-    background: grey;
+    margin-top: 65px;
+    background: rgb(220, 220, 220);
     padding: 6px 14px;
+}
+.sidebar #btn{
+    position: absolute;
+    color: black;
+    left: 90%;
+    top: 15px;
+    text-align: center;
+    transform: translateX(-50%);
+}
+.sidebar ul{
+    margin-top: 25px;
+}
+.sidebar ul li{
+    position: relative;
+    width: 100%;
+    margin: 0px 5px;
+    list-style: none;
+}
+.sidebar ul li a{
+    text-decoration: none;
 }
 
