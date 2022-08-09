@@ -18,7 +18,7 @@
     left: 0;
     margin: auto;
     width: 100%;
-    z-index: 1;
+    z-index: 10;
   }
 .navbar{
     display: flex;
@@ -27,9 +27,8 @@
     width: auto;
     height: 65px;
     padding: 10px 20px 5px 20px;
-    background-color: #ffffffd6;
+    background-color: #ffffff;
     border-bottom: 2px solid hsla(0,0%,52.2%,.1);
-
 }
 .logo{
     padding: 5px 10px 0px 10px;
@@ -198,8 +197,21 @@ a:hover{
     left: 80px;
     top: 65px;
     transition: all 0.5s ease;
+
 }
 .home_content text{
+    color: black;
+}
+.home_content_index{
+    position: absolute;
+    z-index: 1;
+    height: 100%;
+    width: calc(100%);
+    top: 65px;
+    transition: all 0.5s ease;
+    background-color: rgb(235, 235, 235);
+}
+.home_content_index text{
     color: black;
 }
 .container{
@@ -207,7 +219,7 @@ a:hover{
     z-index: 2;
     height: 100%;
     width: auto;
-    background-color: rgb(235, 235, 235);
+    background-color: white;
     border: 2px solid rgb(206, 205, 205);
     margin: 20px;
     padding: 20px;
@@ -215,6 +227,36 @@ a:hover{
 .sidebar.active ~ .home_content{
     width: calc(100% - 240px);
     left: 240px;
+}
+.banner-1{
+    height: 125px;
+    width: 100%;
+    background-color: rgb(174, 105, 239);
+    margin-top: 1px;
+}
+.section1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: fit-content;
+    max-width: 800px;
+    padding: 20px;
+    margin: 0 auto;
+}
+.text_index{
+
+}
+.text_index .h3{
+    line-height: 1em;
+}
+.start_now{
+    line-height: 4em;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(80, 222, 80);
+}
+.image_index1 img{
+    border-radius: 20px;
 }
 
 

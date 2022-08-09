@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Top Dog Academy - Member</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+<head>
+  <body>
+        <div class="parent">
+            <div class="navbar">
+                <div class="menubox">
+                    <!--<div class="padding"><i class='bx bx-menu bx-md' id="btn"></i></div>-->
+                    <div class="logo"><img src="./assets/nav_logo.png" alt="" /></div>
+                </div>
+                <div class="menu">
+                    <div><a class="textbox" href="./index.html">Home</a></div>
+                    <div><a class="textbox" href="#">Programs</a></div>
+                    <div><a class="textbox" href="#">About</a></div>
+                    <div><a class="textbox" href="#">Contact</a></div>
+                    <div><a class="textbox" href="./mainmembers.html">Login</a></div>
+                </div>
+            </div>
+        </div>
+      <div class="sidebar">
+            <div><i class='bx bxs-left-arrow' id="btn"></i></div>
+                <ul class="nav_list">
+                    <li>
+                        <a href="./week1.html">
+                            <i class='bx bx-signal-1 bx-md'></i>
+                            <span class="links_name">Week 1</span>
+                        </a>
+                        <span class="tooltip">Week 1</span>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class='bx bx-signal-2 bx-md'></i>
+                            <span class="links_name">Week 2</span>
+                        </a>
+                        <span class="tooltip">Week 2</span>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class='bx bx-signal-3 bx-md'></i>
+                            <span class="links_name">Week 3</span>
+                        </a>
+                        <span class="tooltip">Week 3</span>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class='bx bx-signal-4 bx-md'></i>
+                            <span class="links_name">Week 4</span>
+                        </a>
+                        <span class="tooltip">Week 4</span>
+                    </li>
+                            
+                </ul>
+            </div>
+        </div>
+      <div class="home_content">
+            <div class="container">
+                <div class="text">Members View</div>
+            </div>
+      </div>
+      <script>
+        let btn = document.querySelector("#btn");
+        let sidebar = document.querySelector(".sidebar");
+
+        btn.onclick = function() {
+            sidebar.classList.toggle("active");
+        }
+      </script>
+  </body>
+</html>
