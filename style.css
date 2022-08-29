@@ -257,9 +257,9 @@ a:hover{
     align-items: center;
     justify-content: space-between;
     height: fit-content;
-    max-width: 800px;
+    max-width: 860px;
     padding: 20px;
-    margin: 0 auto;
+    margin: 30px auto;
 }
 .text_index .h3{
     line-height: 1em;
@@ -272,6 +272,35 @@ a:hover{
 }
 .image_index1 img{
     border-radius: 20px;
+}
+.container2{
+    background-color: rgb(103, 238, 193);
+}
+.container3{
+    background-color: rgb(132, 170, 246);
+}
+.testimony{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    max-width: 1000px;
+    height: fit-content;
+    padding: 20px;
+    margin: 30px auto;
+}
+.imgBox2{
+    width: 350px;
+    height: auto;
+    margin: 16px;
+}
+.story1{
+    margin: 16px;
+}
+.ownerImg{
+    max-width: 100%;
+    height: auto;
+    border-radius: 16px;
 }
 .banner-2{
     height: fit-content;
@@ -316,13 +345,16 @@ a:hover{
         margin: 10px;
         line-height: 1em;
     }
-
+    .testimony {
+        flex-direction: column;
+    }
     .menu{
         display: none;
     }
     .text2{
         margin-left: 25%;
     }
+
 }
 
 
