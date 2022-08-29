@@ -247,9 +247,9 @@ a:hover{
     left: 240px;
 }
 .banner-1{
-    height: 25px;
+    height: 32px;
     width: 100%;
-    background-color: rgb(174, 105, 239);
+    background-color: rgb(201, 159, 240);
     margin-top: 1px;
 }
 .section1{
@@ -274,10 +274,10 @@ a:hover{
     border-radius: 20px;
 }
 .container2{
-    background-color: rgb(103, 238, 193);
+    background-color: rgb(177, 241, 220);
 }
 .container3{
-    background-color: rgb(132, 170, 246);
+    background-color: rgb(194, 210, 242);
 }
 .testimony{
     display: flex;
@@ -287,7 +287,7 @@ a:hover{
     max-width: 1000px;
     height: fit-content;
     padding: 20px;
-    margin: 30px auto;
+    margin: 0 auto;
 }
 .imgBox2{
     width: 350px;
@@ -305,14 +305,23 @@ a:hover{
 .banner-2{
     height: fit-content;
     width: 100%;
-    background-color: rgb(237, 221, 149);
-    margin-top: 1px;
+    background-color: rgb(235, 225, 179);
+    /* margin-top: 1px; */
+}
+.container4{
+    padding: 24px;
+}
+.placeHolder{
+    height: 540px;
+    width: 100%;
+    padding: 16px;
+    border: 2px solid black;
 }
 .text2{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     margin-right: 20px;
     margin-bottom: 20px;
     margin-left: 50%;
