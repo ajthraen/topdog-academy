@@ -311,11 +311,28 @@ a:hover{
 .container4{
     padding: 24px;
 }
-.placeHolder{
-    height: 540px;
-    width: 100%;
+.pillarBlock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    /* max-width: 920px; */
+    margin: 0 auto;
     padding: 16px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
+    overflow: hidden;
+}
+.pillarImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 100%;
+    object-fit: contain;
+    margin: 16px;
+}
+.pillarText{
+    margin: 16px;
 }
 .text2{
     display: flex;
@@ -338,6 +355,13 @@ a:hover{
 }
 .links_name2{
     padding-left: 16px;
+}
+
+@media (max-width: 912px) {
+    .pillarBlock{
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 @media (max-width: 728px) {
@@ -363,7 +387,10 @@ a:hover{
     .text2{
         margin-left: 25%;
     }
+    .pillarBlock{
+        display: flex;
+        flex-direction: column;
+    }
 
 }
-
 
