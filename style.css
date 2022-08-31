@@ -302,13 +302,8 @@ a:hover{
     height: auto;
     border-radius: 16px;
 }
-.banner-2{
-    height: fit-content;
-    width: 100%;
-    background-color: rgb(235, 225, 179);
-    /* margin-top: 1px; */
-}
 .container4{
+    background-color: aliceblue;
     padding: 0 24px;
 }
 .pillarBlock{
@@ -330,6 +325,9 @@ a:hover{
     height: 100%;
     object-fit: contain;
     margin: 16px;
+    padding: 16px;
+    border-radius: 16px;
+    background-color: white;
 }
 .pillarText{
     margin: 16px;
@@ -337,6 +335,21 @@ a:hover{
 /* .pillarTextSub h4{
     padding-left: 80px;
 } */
+.seperator{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    /* position: absolute; */
+    bottom: -80px;
+    background: linear-gradient(-90deg,rgba(134,158,255,.26),#909cfb,#a082f5,rgba(161,130,245,.27451));
+}
+.banner-2{
+    height: fit-content;
+    width: 100%;
+    background-color: aliceblue;
+    /* margin-top: 1px; */
+}
 .text2{
     display: flex;
     flex-direction: column;
