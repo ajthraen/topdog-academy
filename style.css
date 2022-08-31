@@ -372,7 +372,61 @@ a:hover{
 .links_name2{
     padding-left: 16px;
 }
+.faqContainer{
+    background-color: aliceblue;
+    padding: 20px;
+}
+.faqContainer p{
+    display: block;
+    padding: 10px;
+}
+.faqContainer label{
+    display: block;
+    cursor: pointer;
+    background: url(assets/downArrow.png) no-repeat left center;
+    padding: 30px 0 30px 80px;
+}
+input#faq{
+    display: none;
+}
+input#faq2{
+    display: none;
+}
+input#faq3{
+    display: none;
+}
+/* Toggle Effect */
+input:checked ~ label{
+    background: url(assets/upArrow.png) no-repeat left center;
+}
 
+.faqContent{
+    max-height: 0;
+    overflow: hidden;
+    background-color: white;
+    border-bottom: 2px solid #a082f5;
+}
+input:checked ~ .faqContent{
+    max-height: 100%;
+}
+.faqContent2{
+    max-height: 0;
+    overflow: hidden;
+    background-color: white;
+    border-bottom: 2px solid #a082f5;
+}
+input:checked ~ .faqContent2{
+    max-height: 100%;
+}
+.faqContent3{
+    max-height: 0;
+    overflow: hidden;
+    background-color: white;
+    border-bottom: 2px solid #a082f5;
+}
+input:checked ~ .faqContent3{
+    max-height: 100%;
+}
 @media (max-width: 1080px) {
     .pillarBlock{
         display: flex;
