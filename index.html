@@ -131,11 +131,6 @@
                     </div>
                 </ul>
             </div> -->
-
-            <h1>Frequently Asked Questions</h1>
-            <div id="faqs-Container">
-
-            </div>
             
       </div>
       <script>
@@ -145,41 +140,6 @@
             btn.onclick = function() {
                 sidebar.classList.toggle("active");
             }
-      </script>
-      <script>  
-            const faqData = [
-                {
-                    question: "How does it work?",
-                    answer: "Here's how it works",
-                },
-                {
-                    question: "2How does it work?",
-                    answer: "2Here's how it works",
-                },
-                {
-                    question: "3How does it work?",
-                    answer: "3Here's how it works",
-                },
-            ];
-            const faqContainer = document.getElementById('faqs-container');
-            faqData.map(function(item) {
-                let article = document.createElement('article');
-                article.className = "faq-item";
-                const markup = `
-                <div class="item-question">
-                    <span class="question-text">${item.question}</span>    
-                    <span class="arrows-container">
-                        <span class="expand">▼</span>
-                        <span class="close">▲</span>
-                    </span>
-                </div>
-                <div class="item-answer">
-                    <span class="answer-text">${item.answer}</span> 
-                </div>
-                `;
-                article.innerHTML = markup;
-                faqContainer.append(article);
-            });
       </script>
   </body>
 </html>
