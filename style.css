@@ -376,7 +376,11 @@ a:hover{
     background-color: aliceblue;
     padding: 20px;
 }
-
+.footer{
+    text-align: center;
+    color: gray;
+    padding: 10px;
+}
 
 @media (max-width: 1080px) {
     .pillarBlock{
