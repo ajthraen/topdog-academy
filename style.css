@@ -344,37 +344,49 @@ a:hover{
     bottom: -80px;
     background: linear-gradient(-90deg,rgba(134,158,255,.26),#909cfb,#a082f5,rgba(161,130,245,.27451));
 }
-.banner-2{
-    height: fit-content;
+.banner-2 {
+    padding: 24px;
     width: 100%;
     background-color: aliceblue;
-    /* margin-top: 1px; */
 }
-.text2{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    /* margin-top: 20px; */
-    margin-right: 20px;
-    margin-bottom: 20px;
-    margin-left: 50%;
-    min-width: 500px;
-    list-style: none;
+#myDIV.active {
+    width: 100%;
+    padding: 24px;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    transition: all 0.5s ease;
 }
-.list1{
-    margin-top: 10px;
+#myDIV {
+    padding: 8px;
+    font-size: 1px;
+    transition: all 0.5s ease;
+    color:rgba(0, 255, 255, 0)
 }
-.list2{
-    display: flex;
-    align-items: center;
-    margin-top: 4px;
+#myDIV2.active {
+    width: 100%;
+    padding: 24px;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    transition: all 0.5s ease;
 }
-.links_name2{
-    padding-left: 16px;
+#myDIV2 {
+    padding: 8px;
+    font-size: 1px;
+    transition: all 0.5s ease;
+    color:rgba(0, 255, 255, 0)
 }
-.faqContainer{
-    background-color: aliceblue;
-    padding: 20px;
+#myDIV3.active {
+    width: 100%;
+    padding: 24px;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    transition: all 0.5s ease;
+}
+#myDIV3 {
+    padding: 8px;
+    font-size: 1px;
+    transition: all 0.5s ease;
+    color:rgba(0, 255, 255, 0)
 }
 .footer{
     text-align: center;

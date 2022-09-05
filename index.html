@@ -7,6 +7,7 @@
     <title>Top Dog Academy</title>
     <link rel="stylesheet" href="./style.css" />
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <script src="app.js" defer></script>
 
 <head>
   <body>
@@ -106,8 +107,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="seperator"></div>
             </div>
+            <div class="seperator"></div>
             <!-- <div class="banner-2">
                 <ul class="text2">
                     <div class="list1">
@@ -131,18 +132,27 @@
                     </div>
                 </ul>
             </div> -->
-            
+            <div class="banner-2">
+                <button onclick="myFunction()">Try it</button>
+                This is my common question!
+                <div id="myDIV">
+                    This is the answer to the common question.
+                </div>
+                <button onclick="myFunction2()">Try it</button>
+                This is my common question!
+                <div id="myDIV2">
+                    This is the answer to the common question.
+                </div>
+                <button onclick="myFunction3()">Try it</button>
+                This is my common question!
+                <div id="myDIV3">
+                    This is the answer to the common question.
+                </div>
+            </div>
+            <div class="seperator"></div>
             <div class="footer">
-              <p>Copyright 2022 Top Dog Training LLC</p>
+              <p>Copyright © 2022 Top Dog Training LLC</p>
             </div>
       </div>
-      <script>
-            let btn = document.querySelector("#btn");
-            let sidebar = document.querySelector(".sidebar");
-
-            btn.onclick = function() {
-                sidebar.classList.toggle("active");
-            }
-      </script>
   </body>
 </html>
