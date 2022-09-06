@@ -274,10 +274,10 @@ a:hover{
     border-radius: 20px;
 }
 .container2{
-    background-color: rgb(177, 241, 220);
+    background-color: rgb(194, 210, 242);
 }
 .container3{
-    background-color: rgb(194, 210, 242);
+    background-color: rgb(177, 241, 220);
 }
 .testimony{
     display: flex;
@@ -303,7 +303,7 @@ a:hover{
     border-radius: 16px;
 }
 .container4{
-    background-color: aliceblue;
+    background-color: rgb(246, 221, 221);
     padding: 0 24px;
 }
 .pillarBlock{
@@ -355,7 +355,7 @@ a:hover{
 .FAQ {
     padding: 24px;
     width: 100%;
-    background-color: rgb(246, 249, 184);
+    background-color: aliceblue;
 }
 .FAQ h1 {
     margin-bottom: 16px;
@@ -375,11 +375,11 @@ a:hover{
 }
 .faqButton button {
     border: none;
-    background-color: rgb(246, 249, 184);
+    background-color: aliceblue;
 }
 .faqButton.active button {
     border: none;
-    background-color: rgb(246, 249, 184);
+    background-color: aliceblue;
     transform: rotate(180deg);
 }
 #myDIV.active {
@@ -399,11 +399,11 @@ a:hover{
 }
 .faqButton2 button {
     border: none;
-    background-color: rgb(246, 249, 184);
+    background-color: aliceblue;
 }
 .faqButton2.active button {
     border: none;
-    background-color: rgb(246, 249, 184);
+    background-color: aliceblue;
     transform: rotate(180deg);
 }
 #myDIV2.active {
@@ -423,11 +423,11 @@ a:hover{
 }
 .faqButton3 button {
     border: none;
-    background-color: rgb(246, 249, 184);
+    background-color: aliceblue;
 }
 .faqButton3.active button {
     border: none;
-    background-color: rgb(246, 249, 184);
+    background-color: aliceblue;
     transform: rotate(180deg);
 }
 #myDIV3.active {
