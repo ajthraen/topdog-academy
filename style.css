@@ -344,10 +344,22 @@ a:hover{
     bottom: -80px;
     background: linear-gradient(-90deg,rgba(134,158,255,.26),#909cfb,#a082f5,rgba(161,130,245,.27451));
 }
+.seperator1{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    margin-bottom: 12px;
+    background-color: gray;
+}
 .banner-2 {
     padding: 24px;
     width: 100%;
     background-color: aliceblue;
+}
+.faqBox {
+    display: flex;
+    justify-content: space-between;
 }
 #myDIV.active {
     width: 100%;
