@@ -352,53 +352,90 @@ a:hover{
     margin-bottom: 12px;
     background-color: gray;
 }
-.banner-2 {
+.FAQ {
     padding: 24px;
     width: 100%;
     background-color: aliceblue;
+}
+.faqSmContainer{
+    border-bottom: 2px solid gray;
+    margin-bottom: 12px;
 }
 .faqBox {
     display: flex;
     justify-content: space-between;
 }
+.faqWords {
+    font-size: 20px;
+}
+.faqButton button {
+    border: none;
+    background-color: aliceblue;
+}
+.faqButton.active button {
+    border: none;
+    background-color: aliceblue;
+    transform: rotate(180deg);
+}
 #myDIV.active {
-    width: 100%;
+    /* width: 100%; */
     padding: 24px;
     color: rgb(0, 0, 0);
-    font-size: 25px;
+    font-size: 18px;
     transition: all 0.5s ease;
     background-color: white;
+    border-radius: 8px;
 }
 #myDIV {
-    margin: 8px;
+    margin: 4px;
     font-size: 1px;
     transition: all 0.5s ease;
     color:rgba(0, 255, 255, 0)
+}
+.faqButton2 button {
+    border: none;
+    background-color: aliceblue;
+}
+.faqButton2.active button {
+    border: none;
+    background-color: aliceblue;
+    transform: rotate(180deg);
 }
 #myDIV2.active {
-    width: 100%;
-    padding: 24px;
+    /* width: 100%; */
+    padding: 18px;
     color: rgb(0, 0, 0);
     font-size: 25px;
     transition: all 0.5s ease;
     background-color: white;
+    border-radius: 8px;
 }
 #myDIV2 {
-    margin: 8px;
+    margin: 4px;
     font-size: 1px;
     transition: all 0.5s ease;
     color:rgba(0, 255, 255, 0)
 }
+.faqButton3 button {
+    border: none;
+    background-color: aliceblue;
+}
+.faqButton3.active button {
+    border: none;
+    background-color: aliceblue;
+    transform: rotate(180deg);
+}
 #myDIV3.active {
-    width: 100%;
-    padding: 24px;
+    /* width: 100%; */
+    padding: 18px;
     color: rgb(0, 0, 0);
     font-size: 25px;
     transition: all 0.5s ease;
     background-color: white;
+    border-radius: 8px;
 }
 #myDIV3 {
-    margin: 8px;
+    margin: 4px;
     font-size: 1px;
     transition: all 0.5s ease;
     color:rgba(0, 255, 255, 0)
