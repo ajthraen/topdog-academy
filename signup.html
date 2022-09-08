@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Top Dog Academy</title>
+    <script src="app.js" defer></script>
     <link rel="stylesheet" href="./style.css" />
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 
@@ -28,18 +29,17 @@
             <div class="banner-1">
                 <div class="text">Home Content 2</div>
             </div>
-
+            <div>
+                <form>
+                    <label>Name : </label><input type="text" id="userName1"><br>
+                    <label>Email : </label><input type="text" id="userEmail1"><br>
+                    <label>Password : </label><input type="text" id="userPassword1"><br>
+                    <input type="button" value="Submit" onclick="newUserSubmit()">
+                </form>
+            </div>
             <div class="banner-1">
                 <div class="text">Home Content 2</div>
             </div>
-      </div>
-      <script>
-        let btn = document.querySelector("#btn");
-        let sidebar = document.querySelector(".sidebar");
-
-        btn.onclick = function() {
-            sidebar.classList.toggle("active");
-        }
-      </script>
+        </div>
   </body>
 </html>
