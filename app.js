@@ -105,6 +105,6 @@ function newUserSubmit(){
             userPassword1: x3,
         }
     );
-    console.log(userInfo);
+    // console.log(userInfo);
 
 }
